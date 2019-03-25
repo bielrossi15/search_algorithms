@@ -1,5 +1,5 @@
 # Search time comparison
-### A code that measure a few search algorithms execution time and plot a graph comparing them
+**A code that measure a few search algorithms execution time and plot a graph comparing them**
 
 ## Steps to run
 - Install python3
