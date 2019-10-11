@@ -1,12 +1,12 @@
 def create_indexed_list(l: list, n):
 	indexed_l = []
-	slot_size = n // 10
+	s_size = n // 10
 	i = 0
 
 	indexed_l.append(i)
 
 	while i <= n:
-		i += slot_size
+		i += s_size
 		indexed_l.append(i - 1)
 
 	return indexed_l
